@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native'
-import { colors, WIDTH } from '../../constants/layout'
+import { WIDTH } from '../../constants/layout'
 
 const styles = StyleSheet.create({
     image: {

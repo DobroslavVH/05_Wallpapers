@@ -1,5 +1,5 @@
 import { View, StyleSheet, TouchableOpacity, Animated, Image } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { colors, HEIGHT, WIDTH } from '../constants/layout'
 import CustomIndicator from './CustomIndicator'
 import Icon from 'react-native-vector-icons/FontAwesome'
@@ -14,17 +14,6 @@ const RenderPreviewImage = ({
     const [pressed, setPressed] = useState(null)
     const [loading, setLoading] = useState(true)
     const [successfullySaved, setSuccessfullySaved] = useState()
-
-    // const test = async (response: any) => {
-    //     const result = await response?.respInfo?.status
-    //     console.log('response', response?.respInfo?.status)
-    //     if (result === 200) {
-    //         return true
-    //     } else {
-    //         return false
-    //     }
-    // }
-    // console.log('test', test())
 
     let s = new Animated.Value(0)
 
@@ -168,8 +157,6 @@ const styles = StyleSheet.create({
         position: 'absolute',
         height: HEIGHT,
         width: WIDTH,
-        //borderTopLeftRadius: 48,
-        //borderTopRightRadius: 48,
         justifyContent: "center",
         alignItems: 'center'
     },
@@ -188,10 +175,6 @@ const styles = StyleSheet.create({
         marginHorizontal: 25,
         justifyContent: 'space-around',
         alignItems: 'center',
-        flexDirection: 'row',
-
-        // test props
-        //borderWidth: 1,
-        //borderColor: 'red'
+        flexDirection: 'row'
     }
 })

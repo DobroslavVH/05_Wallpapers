@@ -1,7 +1,6 @@
-import { View, Text, Image, FlatList, TouchableOpacity } from 'react-native'
+import { View, FlatList } from 'react-native'
 import React, { useContext, useEffect, useState } from 'react'
 import useImage from '../../hooks/useImage'
-import { getWallpapers, request } from '../../constants/api'
 import ImageContext from '../../context'
 import styles from './styles'
 import Body from '../../components/Body'

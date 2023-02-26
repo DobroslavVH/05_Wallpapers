@@ -7,7 +7,6 @@ const Header = ({ transparent, color }: any) => {
         <View style={[styles.header, transparent && { opacity: 0, height: 0 }]} />
     )
 }
-
 export default Header
 
 const styles = StyleSheet.create({

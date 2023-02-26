@@ -15,8 +15,6 @@ const useImage = async () => {
 
                 let endOfString = tempImage?.substring(tempImage.length - 4, tempImage.length)
 
-                //console.log(endOfString)
-
                 if (tempImage !== undefined && (endOfString === '.jpg' || endOfString === '.png')) {
                     imagesUrl.push(tempImage)
                 }
