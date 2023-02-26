@@ -12,6 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		50F1631002A826A751E684D6 /* libPods-wallpapers-wallpapersTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D74271ABE86ACB1F4B47EC /* libPods-wallpapers-wallpapersTests.a */; };
+		5275ACD2299E91B800EF9C7C /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5275ACD1299E91B800EF9C7C /* fonts */; };
 		7F56D41FC5B6B3007F23DF6C /* libPods-wallpapers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 174E520B7580A9346D2A5C0B /* libPods-wallpapers.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = wallpapers/main.m; sourceTree = "<group>"; };
 		174E520B7580A9346D2A5C0B /* libPods-wallpapers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpapers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E76AF034341D7A709C152E2 /* Pods-wallpapers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wallpapers.release.xcconfig"; path = "Target Support Files/Pods-wallpapers/Pods-wallpapers.release.xcconfig"; sourceTree = "<group>"; };
+		5275ACD1299E91B800EF9C7C /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = wallpapers/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6D74271ABE86ACB1F4B47EC /* libPods-wallpapers-wallpapersTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wallpapers-wallpapersTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -116,6 +118,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				5275ACD1299E91B800EF9C7C /* fonts */,
 				13B07FAE1A68108700A75B9A /* wallpapers */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* wallpapersTests */,
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5275ACD2299E91B800EF9C7C /* fonts in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
